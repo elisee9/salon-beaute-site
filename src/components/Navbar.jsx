@@ -85,7 +85,7 @@ function Navbar() {
                   animate={{ y: 0, opacity: 1 }}
                   exit={{ y: -20, opacity: 0 }}
                   transition={{ duration: 0.3 }}
-                  className="md:hidden bg-pink-50 shadow-md py-4 px-6 space-y-4 font-medium -mr-0"
+                  className="md:hidden bg-pink-50 shadow-md py-4 px-6 space-y-4 font-medium -mr-0 text-center"
                >
                   {navLinks.map(({ to, label }) => (
                      <li key={to}>
