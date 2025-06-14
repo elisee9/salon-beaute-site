@@ -93,7 +93,7 @@ const Header = () => {
                      animate={{ x: 0 }}
                      exit={{ x: "100%" }}
                      transition={{ type: "tween", duration: 0.3 }}
-                     className="fixed top-0 right-0 h-80 w-60 bg-white z-40 shadow-lg rounded-l-xl pt-8 pb-6 px-3 flex flex-col justify-start items-center"
+                     className="fixed top-0 right-0 h-70 w-60 bg-pink-50 z-40 shadow-lg rounded-l-xl pt-4 pb-2 px-3 flex flex-col justify-start items-center"
                   >
                      {navLinks.map((link) => (
                         <NavLink
