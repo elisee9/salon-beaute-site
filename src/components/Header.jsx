@@ -72,7 +72,7 @@ const Header = () => {
                   href="https://wa.me/22965426510"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-[#7F00FF] px-5 py-2 rounded-full font-medium text-white hover:bg-[#6b00d8] transition"
+                  className="bg-gradient-to-r from-[#00D2A8] to-[#005BFF] px-5 py-2 rounded-lg font-medium text-white hover:bg-[#005BFF] transition"
                >
                   WhatsApp
                </a>
@@ -107,7 +107,7 @@ const Header = () => {
                      animate={{ x: 0 }}
                      exit={{ x: "100%" }}
                      transition={{ type: "tween", duration: 0.3 }}
-                     className="fixed top-0 right-0 h-80 w-80 bg-[#1E1E1E] z-40 overflow-y-auto rounded-l-3xl"
+                     className="fixed top-0 right-0 h-80 w-60 bg-[#1E1E1E] z-40 overflow-y-auto rounded-l-xl"
                   >
                      <div className="h-full flex flex-col justify-center items-center gap-1 p-3 ">
                         {navLinks.map((link) => (
@@ -133,7 +133,7 @@ const Header = () => {
                            href="https://wa.me/22965426510"
                            target="_blank"
                            rel="noopener noreferrer"
-                           className="bg-[#7F00FF] px-6 py-2 rounded-full text-white font-semibold hover:bg-[#6b00d8] transition mt-4 w-full text-center"
+                           className="bg-gradient-to-r from-[#00D2A8] to-[#005BFF] px-2 py-2 rounded-lg text-white font-semibold hover:bg-[#005BFF]transition mt-4 w-full text-center"
                         >
                            WhatsApp
                         </a>

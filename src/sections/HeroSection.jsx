@@ -34,22 +34,33 @@ const HeroSection = () => {
                clients, affirmez votre présence en ligne et démarquez-vous
                durablement de la concurrence.
             </p>
-
             <div className="flex flex-col md:flex-row items-center justify-center gap-4">
-               <a
-                  href="tel:+2290165426510"
-                  className="bg-[#00D2A8] hover:bg-[#00b795] text-black font-semibold px-6 py-3 rounded-full flex items-center gap-2 transition duration-300"
+               <motion.div
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="inline-block"
                >
-                  <FaPhoneAlt /> Appeler
-               </a>
-               <a
-                  href="https://wa.me/22965426510"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-[#7F00FF] hover:bg-[#6b00d8] text-white font-semibold px-6 py-3 rounded-full flex items-center gap-2 transition duration-300"
+                  <a
+                     href="tel:+2290165426510"
+                     className="bg-[#00D2A8] hover:bg-[#00b795] text-black font-semibold px-6 py-3 rounded-lg flex items-center gap-2 transition duration-300"
+                  >
+                     <FaPhoneAlt /> Appeler
+                  </a>
+               </motion.div>
+               <motion.div
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="inline-block"
                >
-                  <FaWhatsapp /> WhatsApp
-               </a>
+                  <a
+                     href="https://wa.me/22965426510"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     className="bg-gradient-to-r from-[#00D2A8] to-[#005BFF] hover:bg-[#005BFF] text-white font-semibold px-6 py-3 rounded-lg flex items-center gap-2 transition duration-300"
+                  >
+                     <FaWhatsapp /> WhatsApp
+                  </a>
+               </motion.div>
             </div>
          </motion.div>
       </div>
