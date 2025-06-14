@@ -1,6 +1,4 @@
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
-import { NavLink } from "react-router-dom";
 
 export default function ReservationSection() {
    return (
@@ -35,10 +33,11 @@ export default function ReservationSection() {
                whileInView={{ opacity: 1, scale: 1 }}
                transition={{ delay: 0.4, duration: 0.5 }}
                viewport={{ once: true }}
+               className="relative z-10"
             >
                <a
                   href="/contact"
-                  className="inline-block bg-pink-600 text-white font-semibold px-8 py-3 rounded-full shadow-md hover:bg-pink-700 transition duration-300"
+                  className="inline-block bg-pink-600 text-white font-semibold px-8 py-4 text-lg md:text-base rounded-full shadow-md hover:bg-pink-700 transition duration-300 min-w-[200px]"
                >
                   Réserver maintenant
                </a>
