@@ -39,7 +39,7 @@ const plans = [
       period: "unique",
       recommended: true,
       deliveryTime: "5 jours",
-      example: "https://exemple2.com",
+      example: "https://gek-beaute-elegance.netlify.app",
       features: [
          "Tout inclus dans le Starter +",
          "Site multi-pages (jusqu'à 5 pages)",
