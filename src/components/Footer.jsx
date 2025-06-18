@@ -10,7 +10,7 @@ function Footer() {
             <p className="text-sm text-gray-400">
                Made with ❤️ by{" "}
                <a
-                  href="https://gekinnovatech.com"
+                  href="https://gek-innovatech.netlify.app"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-pink-600 hover:text-pink-700 hover:underline transition-colors"
